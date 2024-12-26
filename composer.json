@@ -1,0 +1,25 @@
+{
+    "name": "tarasivanov/test-runner",
+    "autoload": {
+        "psr-4": {
+            "Tarasivanov\\TestRunner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tarasIvanov",
+            "email": "taras.ivanov.ua@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tarasivanov\\TestRunner\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/process": "^7.2"
+    }
+}
